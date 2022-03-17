@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent "
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/arya_stark"
+            android:contentDescription="@null"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/image"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Arya Stark é uma personagem fictícia da série de livros de fantasia A Song of Ice and Fire, do autor norte-americano George R. R. Martin. Ela também é uma das personagens principais da adaptação televisiva da HBO, Game of Thrones, onde é interpretada pela atriz britânica Maisie Williams."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_alignBottom="@id/image"
+            android:layout_alignParentEnd="true"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:text="Arya Stark"
+            tools:ignore="HardcodedText"
+            android:textColor="@android:color/white"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
