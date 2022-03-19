@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Images">
+        <item>@drawable/arya_stark</item>
+        <item>@drawable/ned_stark</item>
+        <item>@drawable/sansa_stark</item>
+    </array>
+
+
+    <string-array name="names">
+        <item>Arya Stark</item>
+        <item>Eddard Stark</item>
+        <item>Sansa Stark</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>
+            Arya Stark é uma personagem fictícia da série de livros de fantasia
+            A Song of Ice and Fire, do autor norte-americano George R. R. Martin.
+            Ela também é uma das personagens principais da adaptação televisiva da HBO, Game of Thrones,
+            onde é interpretada pela atriz britânica Maisie Williams.
+        </item>
+        <item>
+            Eddard "Ned" Stark é uma personagem fictícia da série literária de fantasia
+            A Song of Ice and Fire, do autor norte-americano George R. R. Martin, e da
+            adaptação televisiva do HBO, Game of Thrones, onde é interpretado por Sean Bean.
+        </item>
+        <item>
+            Sansa Stark é uma personagem fictícia da série de livros de fantasia A Song of Ice and Fire, do autor norte-americano George R. R. Martin.
+            Ela também é uma das personagens principais da adaptação televisiva da HBO, Game of Thrones,
+            onde é interpretada pela atriz inglesa Sophie Turner.
+        </item>
+
+    </string-array>
+</resources>
